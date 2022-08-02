@@ -1,0 +1,32 @@
+.animation-container {
+    background-color: rgb(34, 32, 32);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 9999999999;
+}
+
+.image-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 200px;
+}
+
+@media screen and (min-width: 700px) {
+    .image-container img {
+        max-width: 300px;
+    }
+
+}
+
+@media screen and (min-width: 1900px) {
+    .image-container img {
+        max-width: 400px;
+    }
+
+}

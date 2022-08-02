@@ -1,0 +1,61 @@
+.espana,
+.catalunya,
+.inglaterra {
+    width: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.inglaterra:hover {
+    transform: scale(120%);
+    opacity: 1;
+}
+
+.espana:hover {
+    transform: scale(120%);
+    opacity: 1;
+}
+
+.catalunya:hover {
+    transform: scale(120%);
+    opacity: 1;
+}
+
+.inglaWhite {
+    fill: #FFF;
+}
+
+.inglaRed {
+    fill: #E30613;
+}
+
+.inglaBlue {
+    fill: #194093;
+}
+
+.cataRed {
+    fill: #f10006;
+}
+
+.cataYellow {
+    fill: #fcdd09;
+}
+
+.espaYellow {
+    fill: #fabd00;
+}
+
+.espaRed {
+    fill: #ad1519;
+}
+
+@media screen and (min-width: 700px) {
+
+    .espana,
+    .catalunya,
+    .inglaterra {
+        width: 30px;
+    }
+}

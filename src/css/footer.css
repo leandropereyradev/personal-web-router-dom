@@ -1,0 +1,24 @@
+.footer-container {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+    font-size: 0.6rem;
+    padding: 0.5rem 0;
+}
+
+.footer-container p {
+    padding: 0.3rem;
+    font-size: 0.4rem;
+}
+
+@media screen and (min-width: 700px) {
+    .footer-container p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .footer-container p{
+        font-size: 0.8rem;
+    }
+}

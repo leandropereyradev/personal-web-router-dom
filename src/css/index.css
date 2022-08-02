@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url('../assets/fonts/GOTHIC.TTF');
+  font-display: swap;
+}
+
+body {
+  font-family: 'Gothic';
+  color: aliceblue !important;
+  background-color: rgb(19, 19, 19);
+  letter-spacing: 5px;
+  background-image: url('../assets/base/fondo.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(19, 19, 19);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 44, 143);
+  border-radius: 20px;
+}

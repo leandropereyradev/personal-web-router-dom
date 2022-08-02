@@ -1,0 +1,157 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.header_image-container {
+  order: -1;
+  display: flex;
+  justify-content: center;
+}
+
+.header_image-container img {
+  max-width: 250px;
+  margin-top: 3.5rem;
+}
+
+
+.header_title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.header_subtitle {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.header_level {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.header_lines-container_firstLine,
+.header_lines-container_secondLine {
+  height: 2px;
+  width: 100%;
+  background-color: aliceblue;
+  margin: 0.8rem 0;
+}
+
+@media screen and (min-width: 700px) {
+
+  .header_title-container {
+    margin-left: 3rem;
+  }
+
+  .header_image-container img {
+    max-width: 400px;
+    margin-top: 3.5rem;
+  }
+
+  .header_title {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .header_subtitle {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  .header_level {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header-container {
+    flex-direction: row;
+    width: 85%;
+  }
+
+  .header_image-container {
+    order: 1;
+  }
+
+  .header_image-container img {
+    max-width: 350px;
+    margin-bottom: 8rem;
+  }
+
+  .header_title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 0 2rem 0;
+  }
+
+  .header_title {
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .header_subtitle {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+
+  .header_level {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .header_lines-container_firstLine,
+  .header_lines-container_secondLine {
+    width: 13rem;
+  }
+
+  .header_lines-container_secondLine {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header_image-container img {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .header-container {
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .header_image-container img {
+    max-width: 500px;
+  }
+
+  .header_title {
+    font-size: 7rem;
+  }
+
+  .header_subtitle {
+    font-size: 3rem;
+  }
+
+  .header_level {
+    font-size: 2rem;
+  }
+
+  .header_lines-container_firstLine,
+  .header_lines-container_secondLine {
+    width: 18rem;
+  }
+}

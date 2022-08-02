@@ -1,0 +1,67 @@
+.notFound-container {
+    background-color: rgb(19, 19, 19);
+    height: 100vh;
+}
+
+.notFound-cloud {
+    padding-top: 3rem;
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.notFound-branch {
+    margin: 10rem 0 0 -1rem;
+    width: 300px;
+}
+
+.notFound-totoro {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.notFound-totoro img {
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+}
+
+@media screen and (min-width: 700px) {
+    .notFound-branch {
+        width: 500px;
+    }
+
+    .notFound-totoro {
+        width: 600px;
+    }
+
+    .notFound-totoro img {
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .notFound-cloud {
+        padding-top: 4rem;
+    }
+
+    .notFound-branch {
+        margin: 2rem 0 0 -1rem;
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .notFound-branch {
+        margin: 0rem 0 0 -2rem;
+        width: 700px;
+    }
+
+    .notFound-totoro {
+        width: 800px;
+    }
+
+    .notFound-totoro img {
+        width: 800px;
+    }
+}

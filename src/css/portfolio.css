@@ -1,0 +1,243 @@
+.portfolio-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-images {
+    order: -1;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.portfolio_image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolio_image-container img {
+    border-radius: 5px;
+}
+
+.portfolio_image-container .celia {
+    width: 100%;
+    max-width: 260px;
+
+}
+
+.portfolio_image-container .yoga {
+    max-width: 220px;
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.portfolio_image-container .leandro {
+    max-width: 220px;
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.portfolio_image-container .alicia {
+    max-width: 260px;
+    width: 100%;
+}
+
+.portfolio_title-container {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.portfolio_title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.portfolio_subtitle {
+    font-size: 1rem;
+}
+
+.portfolio_lines-container_firstLine,
+.portfolio_lines-container_secondLine {
+    height: 2px;
+    width: 100%;
+    background-color: aliceblue;
+    margin: 0.8rem 0;
+}
+
+@media screen and (min-width: 700px) {
+    .portfolio_image-container {
+        margin: auto auto;
+        gap: 2rem;
+    }
+
+    .portfolio_image-container .celia {
+        max-width: 260px;
+    }
+
+    .portfolio_image-container .yoga {
+        max-width: 220px;
+        margin-top: 4rem;
+    }
+
+    .portfolio_image-container .leandro {
+        max-width: 220px;
+        margin-top: 0.5rem;
+        margin-left: 2.5rem;
+    }
+
+    .portfolio_image-container .alicia {
+        max-width: 260px;
+    }
+
+    .portfolio_title {
+        font-size: 5rem;
+    }
+
+    .portfolio_subtitle {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .portfolio-container {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .portfolio-images {
+        order: 0;
+        justify-content: flex-end;
+        margin-top: 3rem;
+    }
+
+    .portfolio_image-container {
+        gap: 1rem;
+        margin-top: 5rem;
+    }
+
+    .portfolio_image-container .celia {
+        max-width: 190px;
+    }
+
+    .portfolio_image-container .yoga {
+        max-width: 160px;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    .portfolio_image-container .leandro {
+        max-width: 160px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .portfolio_image-container .alicia {
+        max-width: 190px;
+    }
+
+    .portfolio_title-container {
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: left;
+    }
+
+    .portfolio_title {
+        margin-bottom: 0;
+    }
+
+    .portfolio_subtitle {
+        font-size: 1.7rem;
+    }
+
+    .portfolio_lines-container_firstLine,
+    .portfolio_lines-container_secondLine {
+        width: 10rem;
+        margin: 1rem 0;
+    }
+
+    .portfolio_button {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .portfolio_lines-container_secondLine {
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .portfolio-images {
+        margin-top: 1rem;
+    }
+
+    .portfolio_image-container .celia {
+        max-width: 220px;
+    }
+
+    .portfolio_image-container .alicia {
+        max-width: 220px;
+    }
+
+    .portfolio_image-container .leandro {
+        max-width: 200px;
+    }
+
+    .portfolio_image-container .yoga {
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .portfolio_image-container {
+        order: 0;
+        gap: 1rem;
+        margin-top: 5rem;
+    }
+
+    .portfolio_image-container .celia {
+        max-width: 270px;
+    }
+
+    .portfolio_image-container .yoga {
+        max-width: 230px;
+        margin-top: 3.5rem;
+    }
+
+    .portfolio_image-container .leandro {
+        max-width: 230px;
+        margin-left: 2.5rem;
+    }
+
+    .portfolio_image-container .alicia {
+        max-width: 270px;
+    }
+
+    .portfolio_title-container {
+        margin-bottom: 4rem;
+    }
+
+    .portfolio_title {
+        font-size: 6rem;
+    }
+
+    .portfolio_subtitle {
+        font-size: 2.7rem;
+    }
+
+    .portfolio_lines-container_firstLine,
+    .portfolio_lines-container_secondLine {
+        width: 13rem;
+    }
+}
