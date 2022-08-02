@@ -49,7 +49,7 @@ export const bdPortfolio = [
     title: "Leandro Pereyra",
     subtitle: <FormattedMessage id="leandro" defaultMessage="PortDB" />,
     tech: "React.JS | JavaScript",
-    github: "https://github.com/leandropereyradev/personal-web-parallax",
+    github: "https://github.com/leandropereyradev/personal-web-router-dom",
     image: img.leandro,
   },
 ];
