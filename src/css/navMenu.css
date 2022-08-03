@@ -32,35 +32,6 @@
     color: #f0f8ff;
 }
 
-.navMenu-Lang {
-    position: absolute;
-    right: 1rem;
-    top: 0.7rem;
-    width: 50px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-}
-
-.navMenu-Lang img{
-    width: 30px;
-}
-
-.navMenu-Lang:hover {
-    transform: scale(120%);
-}
-
-.navMenu_flag-container {
-    position: absolute;
-    top: 3.5rem;
-    right: 1rem;
-    display: flex;
-    gap: 1.5rem
-}
-
-.navMenu_flag-container img:hover {
-    transform: scale(140%);
-}
-
 @media screen and (min-width: 1000px) {
     .navMenu-container {
         display: block;

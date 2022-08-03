@@ -1,6 +1,6 @@
 import "../../css/animation.css";
 import { motion, AnimatePresence } from "framer-motion";
-import Img from "../../css/animation.css";
+import Img from "../../assets/img";
 
 const Animation = ({ estado }) => {
   return (

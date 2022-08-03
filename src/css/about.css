@@ -71,11 +71,12 @@
         margin: 0 auto;
         width: 80%;
     }
-
+    
     .about-header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        height: 95vh;
     }
 
     .about_image-container {
@@ -85,7 +86,7 @@
     }
 
     .about_title-container {
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;

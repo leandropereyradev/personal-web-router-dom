@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-import "./nav.css";
+import "../../css/nav.css";
 import img from "../../assets/img";
 
 const Nav = () => {

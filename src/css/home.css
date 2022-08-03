@@ -76,6 +76,7 @@
   .header-container {
     flex-direction: row;
     width: 85%;
+    height: 95vh;
   }
 
   .header_image-container {

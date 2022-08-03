@@ -1,5 +1,5 @@
 .portfolio-container {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -116,7 +116,7 @@
     .portfolio-images {
         order: 0;
         justify-content: flex-end;
-        margin-top: 3rem;
+        margin-top: 0rem;
     }
 
     .portfolio_image-container {
@@ -145,7 +145,7 @@
     }
 
     .portfolio_title-container {
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -179,23 +179,23 @@
 @media screen and (min-width: 1200px) {
 
     .portfolio-images {
-        margin-top: 1rem;
+        margin-top: 0rem;
     }
 
     .portfolio_image-container .celia {
-        max-width: 220px;
+        max-width: 180px;
     }
 
     .portfolio_image-container .alicia {
-        max-width: 220px;
+        max-width: 180px;
     }
 
     .portfolio_image-container .leandro {
-        max-width: 200px;
+        max-width: 160px;
     }
 
     .portfolio_image-container .yoga {
-        max-width: 200px;
+        max-width: 160px;
     }
 }
 

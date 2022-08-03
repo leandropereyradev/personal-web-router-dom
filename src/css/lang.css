@@ -1,0 +1,29 @@
+.lang-earth {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    z-index: 10;
+    fill:#f0f8ff
+}
+
+.lang-earth:hover {
+    transform: scale(120%);
+    opacity: 1;
+}
+
+.navMenu_flag-container {
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    z-index: 99;
+    transition: all .2s ease-in-out;
+}
+
+.navMenu_flag-container img:hover {
+    transform: scale(140%);
+}
